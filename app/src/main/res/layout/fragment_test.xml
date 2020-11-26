@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/frag_center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="65dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qew"
+            android:padding="18dp">
+           <ImageView
+
+                android:id="@+id/item_center_tv_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"
+                android:textSize="16sp"
+               android:src="@mipmap/test4"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/item_asd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度检测"
+                android:layout_toRightOf="@id/item_center_tv_con"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前温度 20℃-20℃"
+                android:layout_toRightOf="@id/item_center_tv_con"
+                android:layout_below="@id/item_asd"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/item_center_tv_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+              android:paddingTop="12dp"
+                android:text="正常"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_below="@id/item_center_tv_con"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="18dp">
+            <ImageView
+
+                android:id="@+id/item_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"
+                android:textSize="16sp"
+                android:src="@mipmap/test3"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="光照度检测"
+                android:layout_toRightOf="@id/item_center"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前温度 1lx-5lx"
+                android:layout_toRightOf="@id/item_center"
+                android:layout_below="@id/item"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/item_center_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="12dp"
+                android:text="正常"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_below="@id/item_center"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sun"
+            android:padding="18dp">
+            <ImageView
+
+                android:id="@+id/tv_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"
+                android:textSize="16sp"
+                android:src="@mipmap/test2"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="土壤温度检测"
+                android:layout_toRightOf="@id/tv_con"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前土壤湿度维持在田间持水量50%"
+                android:layout_toRightOf="@id/tv_con"
+                android:layout_below="@id/d"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/emp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="12dp"
+                android:text="正常"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_below="@id/tv_con"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wid"
+            android:padding="18dp">
+            <ImageView
+
+                android:id="@+id/it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晴"
+                android:textSize="16sp"
+                android:src="@mipmap/test2"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="风力风向检测"
+                android:layout_toRightOf="@id/it"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前风向：西南风  风力：3级"
+                android:layout_toRightOf="@id/it"
+                android:layout_below="@id/i"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="12dp"
+                android:text="正常"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_below="@id/it"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

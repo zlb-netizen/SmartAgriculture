@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragment.MeFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--头部-->
+
+        <!--滚动列表-->
+
+        <RelativeLayout
+            android:id="@+id/layout_me_header"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="#F4F8F4">
+
+            <ImageView
+                android:id="@+id/btn_login"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/userheader"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="终究是客"
+               android:layout_toRightOf="@id/btn_login"
+android:padding="45dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:paddingTop="12dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/about_tv_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="联系客服"
+            android:drawableLeft="@mipmap/icon_door"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:drawablePadding="20dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/txt_my_menu"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:id="@+id/about_tv_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关于我们"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@mipmap/icon_phone"
+            android:drawablePadding="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/txt_my_menu"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:id="@+id/about_tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@mipmap/icon_world"
+            android:drawablePadding="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#D8DDE1"
+            android:layout_below="@+id/txt_my_menu"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:id="@+id/about_tv_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="分享软件"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@mipmap/icon_flash"
+            android:drawablePadding="20dp"/>
+    </LinearLayout>
+
+</FrameLayout>

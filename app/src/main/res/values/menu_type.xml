@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trjiashi">
+        <item>1%rh</item>
+        <item>2%rh</item>
+        <item>3%rh</item>
+        <item>4%rh</item>
+        <item>5%rh</item>
+        <item>6%rh</item>
+</string-array>
+</resources>
